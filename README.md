@@ -23,16 +23,13 @@ Este repositorio contiene mis alias en el archivo `.aliases`.
 ## 🔹 Cómo usar en un computador nuevo
 
 1. Clonar el repositorio:
-
    git clone git@github.com:vflorest/mis-alias.git ~/mis-alias
 
-2.Copiar el archivo a tu home:
-
+2. Copiar el archivo a tu home:
    cp ~/mis-alias/.aliases ~/
 
-3.Editar ~/.zshrc y agregar (si no existe):
-
-   [ -f ~/.aliases ] && source ~/.aliases
+3. Editar ~/.zshrc y agregar (si no existe):
+   [ -f ~/.aliases ] && source ~/.aliases   
 
 4. Recargar la configuración:
    source ~/.zshrc
