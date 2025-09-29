@@ -27,11 +27,14 @@ Este repositorio contiene mis alias en el archivo `.aliases`.
    git clone git@github.com:vflorest/mis-alias.git ~/mis-alias
 
 3. Copiar el archivo a tu home:
+   
    cp ~/mis-alias/.aliases ~/
 
-4. Editar ~/.zshrc y agregar (si no existe):
+5. Editar ~/.zshrc y agregar (si no existe):
+   
    [ -f ~/.aliases ] && source ~/.aliases   
 
-5. Recargar la configuración:
+7. Recargar la configuración:
+   
    source ~/.zshrc
 
